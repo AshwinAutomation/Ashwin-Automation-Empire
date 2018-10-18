@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[prop file load successfully]]>
+    </line>
+    <line>
+      <![CDATA[Title of the application : SailPoint IdentityIQ]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4441" started-at="2018-10-18T12:29:04Z" finished-at="2018-10-18T12:29:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4441" started-at="2018-10-18T12:29:04Z" finished-at="2018-10-18T12:29:09Z">
+      <class name="com.sailpoint.execution.LoginTest">
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:com.sailpoint.execution.LoginTest@3381b4fc]" name="lunchURL" is-config="true" duration-ms="6642" started-at="2018-10-18T17:58:57Z" finished-at="2018-10-18T17:59:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[prop file load successfully]]>
+            </line>
+            <line>
+              <![CDATA[Title of the application : SailPoint IdentityIQ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="sailPointLoginTest()[pri:0, instance:com.sailpoint.execution.LoginTest@3381b4fc]" name="sailPointLoginTest" duration-ms="3810" started-at="2018-10-18T17:59:04Z" finished-at="2018-10-18T17:59:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sailPointLoginTest -->
+      </class> <!-- com.sailpoint.execution.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

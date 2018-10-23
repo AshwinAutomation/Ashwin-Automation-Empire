@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sailpoint.execution.LoginTest">
+      <class name="com.sailpoint.execution.ManageUserAccessExecution">
         <methods>
           <include name="lunchURL"/>
-          <include name="sailPointLoginTest"/>
+          <include name="manageUserAccessTest"/>
         </methods>
-      </class> <!-- com.sailpoint.execution.LoginTest -->
+      </class> <!-- com.sailpoint.execution.ManageUserAccessExecution -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

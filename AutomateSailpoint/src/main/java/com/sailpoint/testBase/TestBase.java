@@ -5,14 +5,17 @@ import java.io.FileInputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.IHookCallBack;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeSuite;
 import io.qameta.allure.Attachment;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+
 public class TestBase {
 	public static WebDriver driver = null;
 	public static Properties prop = null;
@@ -69,4 +72,34 @@ public class TestBase {
 			this.saveScreenshot(iTestResult.getName(), driver);
 		}
 	}
+
+	public static WebElement isElementPresnt(WebDriver driver,int time)
+	{
+	 
+	 
+	WebElement ele = null;
+	 
+	for(int i=0;i<time;i++)
+	{
+	try{
+	
+	break;
+	}
+	catch(Exception e)
+	{
+	try 
+	{
+	Thread.sleep(1000);
+	} catch (InterruptedException e1) 
+	{
+	System.out.println("Waiting for element to appear on DOM");
+	}
+	}
+	 
+	 
+	}
+	return ele;
+	 
+	}
+	 
 }
